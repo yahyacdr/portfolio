@@ -231,8 +231,7 @@ if (window.matchMedia("(min-width: 1024px)").matches) {
     aboutMeImgs.forEach((imgContainer) => {
         if (imgContainer.classList.contains('head-img')) {
             workHome = imgContainer.querySelector('.work-home')
-            workHome.src = '/img/Backgrounds/at-computer-top-perfect.jpg
-'
+            workHome.src = '/img/Backgrounds/at-computer-top-perfect.jpg'
         }
         if (imgContainer.classList.contains('mid-img')) {
             midImg = [...imgContainer.querySelectorAll('.mid')]
