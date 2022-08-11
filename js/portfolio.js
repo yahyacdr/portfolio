@@ -28,7 +28,6 @@ let education = main.querySelector('.education')
 let projects = main.querySelector('.projects-head')
 let scrollButton = body.querySelectorAll('.scroll')
 let aboutMeImgs = aboutMe.querySelectorAll('.collection-img .col-md-10')
-console.log(aboutMeImgs)
 main.setAttribute('style', 'opacity: 0')
 footer.setAttribute('style', 'opacity: 0')
 window.onload = function (e) {
@@ -47,7 +46,6 @@ let r = 0
 /* TRY TO REDUCE NUMBER OF EVENT LISTENERS */
 email.addEventListener('copy', (e) => {
     e.preventDefault()
-    console.log('click')
     if (e.clipboardData) {
         e.clipboardData.setData('text/plain', email.textContent)
     }
@@ -230,20 +228,19 @@ footer_a.forEach((a) => {
 })
 
 if (window.matchMedia("(min-width: 1024px)").matches) {
-    console.log('matched media')
     aboutMeImgs.forEach((imgContainer) => {
         if (imgContainer.classList.contains('head-img')) {
             workHome = imgContainer.querySelector('.work-home')
-            workHome.src = '../img/Backgrounds/at-computer-top-perfect.jpg'
+            workHome.src = '/img/Backgrounds/at-computer-top-perfect.jpg'
         }
         if (imgContainer.classList.contains('mid-img')) {
             midImg = [...imgContainer.querySelectorAll('.mid')]
-            midImg[0].src = '../img/Backgrounds/at-computer-mid-1-resized-perfect.jpg'
-            midImg[1].src = '../img/Backgrounds/at-computer-mid-2-resized-perfect.jpg'
+            midImg[0].src = '/img/Backgrounds/at-computer-mid-1-resized-perfect.jpg'
+            midImg[1].src = '/img/Backgrounds/at-computer-mid-2-resized-perfect.jpg'
         }
         if (imgContainer.classList.contains('foot-img')) {
             workHome = imgContainer.querySelector('.hold-phone')
-            workHome.src = '../img/Backgrounds/hold-phone-lg.png'
+            workHome.src = '/img/Backgrounds/hold-phone-lg.png'
         }
     })
 }
