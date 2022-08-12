@@ -1,1128 +1,1519 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 20 version
+*/
+
 @media (max-width: 280px) {
   header .navigation .row .logo {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
   }
+
   header .navigation .row .logo img {
     width: 128px;
   }
+
   header .navigation .row .menu-icon-container {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
   }
+
   header .mobile-nav .anchors {
     padding-left: 1rem;
   }
+
   header .mobile-nav .anchors a {
     width: 55%;
   }
+
   main {
     margin-top: 6rem;
   }
-  main > .head .head-title {
+
+  main>.head .head-title {
     margin-bottom: 0.5rem;
   }
-  main > .head .head-title .title .gradient-title {
+
+  main>.head .head-title .title .gradient-title {
     display: inline-block;
     padding-right: 3px;
   }
-  main > .head .head-title .title .black-title {
+
+  main>.head .head-title .title .black-title {
     margin-bottom: 1rem;
   }
-  main > .head .head-title .title .gradient-title,
-main > .head .head-title .title .black-title {
+
+  main>.head .head-title .title .gradient-title,
+  main>.head .head-title .title .black-title {
     font-size: 2.5rem;
   }
-  main > .head .p {
+
+  main>.head .p {
     margin-bottom: 1rem;
   }
-  main > .head .p .head-p {
+
+  main>.head .p .head-p {
     font-size: 1.1875rem;
   }
-  main > .head .btns {
+
+  main>.head .btns {
+    -webkit-align-content: space-between;
+    -ms-flex-line-pack: justify;
     align-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
-  main > .head .btns .cv-form {
+
+  main>.head .btns .cv-form {
     margin: 6rem 0;
   }
-  main > .head .btns .cv-form .cv {
+
+  main>.head .btns .cv-form .cv {
     width: 61%;
     margin-bottom: 1rem;
   }
-  main > .head .my-img .myimg {
+
+  main>.head .my-img .myimg {
     width: 70%;
   }
+
   main .services {
     margin-top: 6rem;
   }
-  main .services > .title {
+
+  main .services>.title {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-bottom: 6rem;
   }
-  main .services > .title .gradient-title {
+
+  main .services>.title .gradient-title {
     font-size: 1.375rem;
     margin-bottom: 1rem;
   }
-  main .services > .title .black-title {
+
+  main .services>.title .black-title {
     font-size: 2.25rem;
   }
+
   main .services .values {
     padding-left: 0;
     margin-bottom: 3rem;
   }
+
   main .services .values .img {
     margin-bottom: 1rem;
   }
+
   main .services .values .img img {
     width: 58px;
   }
+
   main .services .values h2 {
     font-size: 1.1875rem;
     margin-bottom: 1rem;
   }
+
   main .services .values .p {
     margin-bottom: 1rem;
   }
+
   main .services .values .p p {
     line-height: 22px;
   }
-  main .projects-head > .title {
+
+  main .projects-head>.title {
     font-size: 2.25rem;
     line-height: 120%;
     letter-spacing: 0.5px;
   }
-  main .projects-head > .title .gradient-title {
+
+  main .projects-head>.title .gradient-title {
     margin-bottom: 1rem;
   }
+
   main .projects-head .btns {
     margin: 3rem 0 10rem;
   }
+
   main .projects-head .btns .buttons {
     position: relative;
     left: -12px;
   }
+
   main .projects .projects-links .pro-panel .details {
     padding: 2rem;
   }
+
   main .projects .projects-links .pro-panel .details .gradient-title {
     font-size: 0.875rem;
   }
+
   main .projects .projects-links .pro-panel .details .black-title {
     font-size: 1.1875rem;
   }
+
   main .projects .projects-links .pro-panel .details .gradient-title,
-main .projects .projects-links .pro-panel .details .black-title {
+  main .projects .projects-links .pro-panel .details .black-title {
     margin-bottom: 1rem;
   }
+
   main .projects .projects-links .pro-panel .details .to-pro {
     width: 70%;
   }
+
   main .projects .projects-links .pro-panel .details .to-pro p {
     font-size: 0.875rem;
     margin-right: 0.4rem;
   }
+
   main .projects .projects-links .pro-panel .details .to-pro .arrow {
     width: 12px;
   }
+
   main .projects .projects-links .pro-panel .details .to-pro .arrow img {
     width: 100%;
   }
+
   main .projects .indicators .img {
     width: 86px;
     margin: 3rem 0.75rem 0;
     padding: 0;
   }
+
   main .projects .indicators .img img {
     width: 50%;
   }
+
   main .testimonials {
     padding-top: 7rem;
     padding-bottom: 4rem;
   }
-  main .testimonials > .title .gradient-title {
+
+  main .testimonials>.title .gradient-title {
     font-size: 1.375rem;
     margin-bottom: 1.5rem;
   }
-  main .testimonials > .title .white-title {
+
+  main .testimonials>.title .white-title {
     font-size: 2.25rem;
     line-height: 120%;
     letter-spacing: 0.5px;
     margin-bottom: 3rem;
   }
+
   main .testimonials .feedbacks {
     margin-left: 0;
     margin-right: 0;
   }
-  main .testimonials .feedbacks > .img {
+
+  main .testimonials .feedbacks>.img {
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     width: 100%;
     padding: 0;
   }
-  main .testimonials .feedbacks > .img img {
+
+  main .testimonials .feedbacks>.img img {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
   }
+
   main .testimonials .feedbacks blockquote {
     margin: 2rem 0;
     padding: 0;
     font-size: 1.25rem;
   }
+
   main .testimonials .feedbacks blockquote .quote {
     width: 35px;
     height: 35px;
     margin: 1.25rem 0;
   }
+
   main .testimonials .feedbacks .name-indicators {
     padding: 0;
   }
+
   main .testimonials .feedbacks .name-indicators .name h5 {
     font-size: 1.1875rem;
   }
+
   main .testimonials .feedbacks .name-indicators .indicators {
     width: 86px;
   }
+
   main .education {
     margin-top: 6rem;
   }
+
   main .education .title {
     margin-bottom: 2rem;
   }
+
   main .education .title h1 {
     font-size: 1.6875rem;
   }
+
   main .education .certificates .edu {
+    -ms-grid-columns: 18% 74% 8%;
     grid-template-columns: 18% 74% 8%;
+    -ms-grid-rows: (auto)[4];
     grid-template-rows: repeat(4, auto);
-    grid-template-areas: "icon-left title icon-right" "icon-left desc-p desc-p" "duration duration duration" "ul ul .";
+    grid-template-areas: "icon-left title icon-right""icon-left desc-p desc-p""duration duration duration""ul ul .";
   }
+
   main .education .certificates .edu h3 {
     font-size: 1.1875rem;
   }
+
   main .education .certificates .edu h5 {
     font-size: 1.1875rem;
   }
+
   main .education .certificates .edu .duration {
     margin-top: 1.5rem;
   }
+
   main .about-me {
     margin-top: 6rem;
     margin-bottom: 6rem;
   }
-  main .about-me > .head {
+
+  main .about-me>.head {
     margin-left: 0;
     margin-right: 0;
   }
-  main .about-me > .head .gradient-title {
+
+  main .about-me>.head .gradient-title {
     font-size: 1.375rem;
     margin-bottom: 1rem;
   }
-  main .about-me > .head .black-title {
+
+  main .about-me>.head .black-title {
     font-size: 2.5rem;
     line-height: 120%;
     letter-spacing: 0.5px;
     margin-bottom: 2rem;
   }
-  main .about-me > .head > .desc {
+
+  main .about-me>.head>.desc {
     line-height: 36px;
     font-size: 1.1875rem;
     max-width: 260px;
     margin-bottom: 2.5rem;
   }
+
   main .about-me .collection-img {
     --gap: 1.5vh;
     margin-left: 0;
     margin-right: 0;
     row-gap: var(--gap);
   }
+
   main .about-me .collection-img .mid-img {
+    -ms-grid-columns: calc(50% - var(--gap) / 2) var(--gap) calc(50% - var(--gap) / 2);
     grid-template-columns: calc(50% - var(--gap) / 2) calc(50% - var(--gap) / 2);
     -moz-column-gap: var(--gap);
-         column-gap: var(--gap);
+    -webkit-column-gap: var(--gap);
+    column-gap: var(--gap);
   }
-  footer .contact > .title {
+
+  footer .contact>.title {
     margin-bottom: 3rem;
   }
-  footer .contact > .title .white-title {
+
+  footer .contact>.title .white-title {
     font-size: 2.25rem;
     line-height: 120%;
     letter-spacing: 0.5px;
     margin-bottom: 0.5rem;
   }
-  footer .contact > .title .gradient-title {
+
+  footer .contact>.title .gradient-title {
     font-size: 1.875rem;
   }
+
   footer .contact .address {
     margin-bottom: 3rem;
   }
+
   footer .contact .address .logo img {
     width: 203px;
   }
+
   footer .contact .address p {
     font-size: 1rem;
     font-size: 1.0657rem;
   }
+
   footer .contact .address .email p {
     font-size: 0.8rem;
   }
+
   footer .contact .social .button a {
     font-size: 1rem;
   }
+
   footer .contact .rights {
     margin-top: 2.75rem;
   }
+
   footer .contact .rights p {
     font-size: 15px;
   }
 }
+
 @media ((width: 653px) and (height: 280px)) {
   header .navigation {
     margin-left: 1rem;
     max-width: 618px;
   }
+
   header .navigation .row {
     padding-right: 0.75rem !important;
   }
+
   header .navigation .row .logo img {
     width: 203px !important;
   }
+
   header .mobile-nav .anchors {
     padding-left: 1.95rem !important;
     padding-right: 30px;
   }
-  main > .head .head-title .title .gradient-title {
+
+  main>.head .head-title .title .gradient-title {
     font-size: 3.125rem !important;
     line-height: 125%;
   }
-  main > .head .btns {
+
+  main>.head .btns {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: row !important;
+    -ms-flex-direction: row !important;
     flex-direction: row !important;
   }
-  main > .head .btns .cv-form {
+
+  main>.head .btns .cv-form {
+    -webkit-box-pack: start !important;
+    -webkit-justify-content: flex-start !important;
+    -ms-flex-pack: start !important;
     justify-content: flex-start !important;
     margin: 1.6rem 0 6rem !important;
   }
-  main > .head .btns .cv-form .cv {
+
+  main>.head .btns .cv-form .cv {
     width: 87% !important;
   }
-  main > .head .my-img .myimg img {
+
+  main>.head .my-img .myimg img {
     width: 30%;
   }
+
   main .services {
     padding-left: 0.75rem !important;
   }
-  main .services > .title .black-title {
+
+  main .services>.title .black-title {
     line-height: 110%;
   }
+
   main .services .values .img img {
     width: 70px !important;
   }
+
   main .services .values h2 {
     font-size: 1.1325rem !important;
   }
+
   main .projects-head {
     margin-left: 1.5rem !important;
   }
+
   main .projects-head .btns .buttons {
     position: relative;
     left: -12px;
   }
+
   main .projects {
     max-width: 654px;
   }
+
   main .projects .projects-links {
     margin-bottom: 2rem !important;
     margin-left: 1rem;
   }
+
   main .projects .projects-links .pro-panel {
     width: 367px !important;
   }
+
   main .projects .projects-links .pro-panel .details .gradient-title {
     font-size: 0.875rem !important;
   }
+
   main .projects .projects-links .pro-panel .details .black-title {
     font-size: 1.3125rem !important;
   }
+
   main .projects .projects-links .pro-panel .details .to-pro {
     width: 60% !important;
   }
+
   main .projects .projects-links .pro-panel .details .to-pro p {
     font-size: 1rem !important;
   }
+
   main .projects .indicators .img img {
     width: 50% !important;
   }
+
   main .testimonials {
     max-width: 654px;
   }
+
   main .testimonials .feedbacks blockquote {
     width: 100% !important;
     font-size: 1.475rem !important;
   }
+
   main .testimonials .feedbacks .img {
     width: 84.645% !important;
     margin-left: auto;
     margin-right: auto;
   }
+
   main .testimonials .feedbacks .img img {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
   }
+
   main .testimonials .feedbacks .name-indicators .name h5 {
     font-size: 1.25rem !important;
   }
+
   main .testimonials .feedbacks .name-indicators .name p {
     font-size: 1rem !important;
   }
+
   main .testimonials .feedbacks .name-indicators .indicators {
     width: 14%;
   }
+
   main .education .title {
     width: 40%;
   }
+
   main .education .certificates {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
+
   main .education .certificates .edu {
+    -ms-grid-columns: 14% 56.8% 23% 4.2% !important;
     grid-template-columns: 14% 56.8% 23% 4.2% !important;
+    -ms-grid-rows: (auto)[3];
     grid-template-rows: repeat(3, auto);
-    grid-template-areas: "icon-left title . icon-right" "icon-left desc-p duration ." "ul ul . .";
+    grid-template-areas: "icon-left title . icon-right""icon-left desc-p duration .""ul ul . .";
     width: 90%;
   }
+
   main .education .certificates .edu .duration {
     margin-top: 0 !important;
   }
+
   main .about-me {
+    -ms-grid-rows: 0.25fr 1fr !important;
     grid-template-rows: 0.25fr 1fr !important;
   }
-  main .about-me > .head .desc {
+
+  main .about-me>.head .desc {
     max-width: none !important;
   }
+
   main .about-me .collection-img {
+    -ms-grid-columns: 95% !important;
     grid-template-columns: 95% !important;
     --gap: 5vh !important;
   }
+
   main .about-me .collection-img .mid-img {
+    -ms-grid-columns: calc(50% - var(--gap) / 2) var(--gap) calc(50% - var(--gap) / 2);
     grid-template-columns: calc(50% - var(--gap) / 2) calc(50% - var(--gap) / 2);
     -moz-column-gap: var(--gap);
-         column-gap: var(--gap);
+    -webkit-column-gap: var(--gap);
+    column-gap: var(--gap);
   }
+
   footer .contact .title {
     height: 34%;
   }
+
   footer .contact .address {
     height: 46%;
   }
+
   footer .contact .social {
     height: 70%;
   }
 }
+
 @media ((min-width: 320px)) {
   header .navigation .row .logo {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
   }
+
   header .navigation .row .logo img {
     width: 128px;
   }
+
   header .navigation .row .menu-icon-container {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
   }
+
   header .mobile-nav .anchors {
     padding-left: 1rem;
   }
+
   header .mobile-nav .anchors a {
     width: 55%;
   }
+
   main {
     margin-top: 6rem;
   }
-  main > .head .head-title {
+
+  main>.head .head-title {
     margin-bottom: 0.5rem;
   }
-  main > .head .head-title .title .gradient-title {
+
+  main>.head .head-title .title .gradient-title {
     display: inline-block;
     padding-right: 3px;
   }
-  main > .head .head-title .title .black-title {
+
+  main>.head .head-title .title .black-title {
     margin-bottom: 1rem;
   }
-  main > .head .head-title .title .gradient-title,
-main > .head .head-title .title .black-title {
+
+  main>.head .head-title .title .gradient-title,
+  main>.head .head-title .title .black-title {
     font-size: 2.5rem;
   }
-  main > .head .p {
+
+  main>.head .p {
     margin-bottom: 1rem;
   }
-  main > .head .p .head-p {
+
+  main>.head .p .head-p {
     font-size: 1.1875rem;
   }
-  main > .head .btns > div {
+
+  main>.head .btns>div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
-  main > .head .btns .cv-form {
+
+  main>.head .btns .cv-form {
     margin: 6rem 0;
   }
-  main > .head .btns .cv-form .cv {
+
+  main>.head .btns .cv-form .cv {
     width: 61%;
     margin-bottom: 1rem;
   }
-  main > .head .my-img .myimg {
+
+  main>.head .my-img .myimg {
     width: 70%;
   }
+
   main .services {
     margin-top: 6rem;
   }
-  main .services > .title {
+
+  main .services>.title {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-bottom: 6rem;
   }
-  main .services > .title .gradient-title {
+
+  main .services>.title .gradient-title {
     font-size: 1.375rem;
     margin-bottom: 1rem;
   }
-  main .services > .title .black-title {
+
+  main .services>.title .black-title {
     font-size: 2.25rem;
   }
+
   main .services .values {
     padding-left: 0;
     margin-bottom: 3rem;
   }
+
   main .services .values .img {
     margin-bottom: 1rem;
   }
+
   main .services .values .img img {
     width: 70px;
   }
+
   main .services .values h2 {
     font-size: 1.1875rem;
     margin-bottom: 1rem;
   }
+
   main .services .values .p {
     margin-bottom: 1rem;
   }
+
   main .services .values .p p {
     line-height: 22px;
   }
-  main .projects-head > .title {
+
+  main .projects-head>.title {
     font-size: 2.25rem;
     line-height: 120%;
     letter-spacing: 0.5px;
   }
-  main .projects-head > .title .gradient-title {
+
+  main .projects-head>.title .gradient-title {
     margin-bottom: 1rem;
   }
+
   main .projects-head .btns {
     margin: 3rem 0 10rem;
   }
+
   main .projects-head .btns .buttons {
     position: relative;
     left: -12px;
     height: 24px;
   }
+
   main .projects .projects-links .pro-panel .details {
     padding: 2rem;
   }
+
   main .projects .projects-links .pro-panel .details .gradient-title {
     font-size: 0.875rem;
   }
+
   main .projects .projects-links .pro-panel .details .black-title {
     font-size: 1.1875rem;
   }
+
   main .projects .projects-links .pro-panel .details .gradient-title,
-main .projects .projects-links .pro-panel .details .black-title {
+  main .projects .projects-links .pro-panel .details .black-title {
     margin-bottom: 1rem;
   }
+
   main .projects .projects-links .pro-panel .details .to-pro {
     width: 70%;
   }
+
   main .projects .projects-links .pro-panel .details .to-pro p {
     font-size: 0.875rem;
     margin-right: 0.4rem;
   }
+
   main .projects .projects-links .pro-panel .details .to-pro .arrow {
     width: 12px;
   }
+
   main .projects .projects-links .pro-panel .details .to-pro .arrow img {
     width: 100%;
   }
+
   main .projects .indicators .img {
     width: 86px;
     margin: 3rem 0.75rem 0;
     padding: 0;
   }
+
   main .projects .indicators .img img {
     width: 50%;
   }
+
   main .testimonials {
     padding-top: 7rem;
     padding-bottom: 4rem;
   }
-  main .testimonials > .title .gradient-title {
+
+  main .testimonials>.title .gradient-title {
     font-size: 1.375rem;
     margin-bottom: 1.5rem;
   }
-  main .testimonials > .title .white-title {
+
+  main .testimonials>.title .white-title {
     font-size: 2.25rem;
     line-height: 120%;
     letter-spacing: 0.5px;
     margin-bottom: 3rem;
   }
+
   main .testimonials .feedbacks {
     margin-left: 0;
     margin-right: 0;
   }
-  main .testimonials .feedbacks > .img {
+
+  main .testimonials .feedbacks>.img {
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     width: 100%;
     padding: 0;
   }
-  main .testimonials .feedbacks > .img img {
+
+  main .testimonials .feedbacks>.img img {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
   }
+
   main .testimonials .feedbacks blockquote {
     margin: 2rem 0;
     padding: 0;
     font-size: 1.25rem;
   }
+
   main .testimonials .feedbacks blockquote .quote {
     width: 35px;
     height: 35px;
     margin: 1.25rem 0;
   }
+
   main .testimonials .feedbacks .name-indicators {
     padding: 0;
   }
+
   main .testimonials .feedbacks .name-indicators .name h5 {
     font-size: 1.1875rem;
   }
+
   main .testimonials .feedbacks .name-indicators .indicators {
     width: 86px;
   }
+
   main .education {
     margin-top: 6rem;
   }
+
   main .education .title {
     margin-bottom: 2rem;
   }
+
   main .education .title h1 {
     font-size: 1.6875rem;
   }
+
   main .education .certificates .edu {
+    -ms-grid-columns: 18% 74% 8%;
     grid-template-columns: 18% 74% 8%;
+    -ms-grid-rows: (auto)[4];
     grid-template-rows: repeat(4, auto);
-    grid-template-areas: "icon-left title icon-right" "icon-left desc-p desc-p" "duration duration duration" "ul ul .";
+    grid-template-areas: "icon-left title icon-right""icon-left desc-p desc-p""duration duration duration""ul ul .";
   }
+
   main .education .certificates .edu h3 {
     font-size: 1.1875rem;
   }
+
   main .education .certificates .edu h5 {
     font-size: 1.1875rem;
   }
+
   main .education .certificates .edu .duration {
     margin-top: 1.5rem;
   }
+
   main .about-me {
     margin-top: 6rem;
     margin-bottom: 6rem;
   }
-  main .about-me > .head {
+
+  main .about-me>.head {
     margin-left: 0;
     margin-right: 0;
   }
-  main .about-me > .head .gradient-title {
+
+  main .about-me>.head .gradient-title {
     font-size: 1.375rem;
     margin-bottom: 1rem;
   }
-  main .about-me > .head .black-title {
+
+  main .about-me>.head .black-title {
     font-size: 2.5rem;
     line-height: 120%;
     letter-spacing: 0.5px;
     margin-bottom: 2rem;
   }
-  main .about-me > .head > .desc {
+
+  main .about-me>.head>.desc {
     line-height: 36px;
     font-size: 1.1875rem;
     margin-bottom: 2.5rem;
   }
+
   main .about-me .collection-img {
     --gap: 1.5vh;
     margin-left: 0;
     margin-right: 0;
     row-gap: var(--gap);
   }
+
   main .about-me .collection-img .mid-img {
+    -ms-grid-columns: calc(50% - var(--gap) / 2) var(--gap) calc(50% - var(--gap) / 2);
     grid-template-columns: calc(50% - var(--gap) / 2) calc(50% - var(--gap) / 2);
     -moz-column-gap: var(--gap);
-         column-gap: var(--gap);
+    -webkit-column-gap: var(--gap);
+    column-gap: var(--gap);
   }
-  footer .contact > .title {
+
+  footer .contact>.title {
     margin-bottom: 3rem;
   }
-  footer .contact > .title .white-title {
+
+  footer .contact>.title .white-title {
     font-size: 2.25rem;
     line-height: 120%;
     letter-spacing: 0.5px;
     margin-bottom: 0.5rem;
   }
-  footer .contact > .title .gradient-title {
+
+  footer .contact>.title .gradient-title {
     font-size: 1.875rem;
   }
+
   footer .contact .address {
     margin-bottom: 3rem;
   }
+
   footer .contact .address .logo img {
     width: 203px;
   }
+
   footer .contact .address p {
     font-size: 1rem;
     font-size: 1.0657rem;
   }
+
   footer .contact .address .email p {
     font-size: 0.8rem;
   }
+
   footer .contact .social .button a {
     font-size: 1rem;
   }
+
   footer .contact .rights {
     margin-top: 2.75rem;
   }
+
   footer .contact .rights p {
     font-size: 15px;
   }
 }
+
 @media ((min-width: 353px)) {
-  main > .head .head-title {
+  main>.head .head-title {
     margin-bottom: 1.5rem;
   }
-  main .services > .title .black-title {
+
+  main .services>.title .black-title {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
   main .services .values {
     padding-left: 0.75rem;
   }
+
   main .projects .projects-links .pro-panel .details::before {
     width: 102vw;
     left: -16px;
   }
+
   main .testimonials {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
   main .education {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
   main .about-me {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 }
+
 @media ((min-width: 360px)) {
   main .services .values .img {
     margin-bottom: 1.5rem;
   }
 }
+
 @media ((min-width: 375px)) {
   header .navigation .row {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
   }
+
   header .navigation .row .logo img {
     width: 150px;
   }
-  main > .head {
+
+  main>.head {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+
   main .projects-head {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
   main .projects {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
   main .projects .indicators {
     padding-right: 0.55rem;
   }
 }
+
 @media ((min-width: 384px)) {
   header .mobile-nav .anchors {
     padding-left: 2.2rem;
   }
 }
+
 @media ((min-width: 411px)) {
-  main .testimonials > .title {
+  main .testimonials>.title {
     margin-left: 0;
     margin-right: 0;
   }
-  main .testimonials > .title .white-title {
+
+  main .testimonials>.title .white-title {
     padding-right: 0;
   }
+
   main .testimonials .feedbacks {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
   }
+
   main .about-me .collection-img {
     --gap: 2.5vh;
   }
 }
+
 @media ((min-width: 412px)) {
   main .head .head-title {
     margin-bottom: 1rem;
   }
+
   main .projects .projects-links {
     margin-bottom: 3rem;
   }
+
   main .projects .projects-links .pro-panel .details .gradient-title {
     font-size: 1.1rem;
   }
+
   main .projects .projects-links .pro-panel .details .black-title {
     font-size: 1.4rem;
   }
+
   main .projects .projects-links .pro-panel .details .to-pro p {
     font-size: 1.1rem;
   }
 }
+
 @media ((min-width: 480px)) {
   main .head .head-title {
     margin-bottom: 2rem;
   }
+
   main .head .p {
     margin-bottom: 1.5rem;
   }
+
   main .head .p .head-p {
     font-size: 1.1875rem;
   }
+
   main .head .btns .cv-form {
     margin: 7rem 0 3rem;
   }
-  main .services > .title {
+
+  main .services>.title {
     height: auto;
   }
-  main .services > .title .black-title {
+
+  main .services>.title .black-title {
     font-size: 2.5rem;
   }
+
   main .projects .projects-links {
     margin-bottom: 4rem;
   }
+
   main .projects .projects-links .pro-panel .details .gradient-title {
     font-size: 1.3rem;
   }
+
   main .projects .projects-links .pro-panel .details .black-title {
     font-size: 1.5rem;
   }
+
   main .projects .projects-links .pro-panel .details .to-pro {
     width: 51%;
   }
+
   main .projects .projects-links .pro-panel .details .to-pro p {
     font-size: 1.3rem;
   }
+
   main .testimonials .feedbacks blockquote {
     margin: 3rem 0;
   }
+
   main .about-me .head .gradient-title {
     letter-spacing: 5px;
     width: 100%;
   }
 }
+
 @media ((min-width: 533px)) {
   header .navigation {
     margin-left: 1rem;
     max-width: 618px;
   }
+
   header .navigation .row {
     padding-right: 2.75rem;
   }
+
   header .navigation .row .logo img {
     width: 203px;
   }
+
   header .mobile-nav .anchors {
     padding-left: 2.95rem;
     padding-right: 30px;
   }
-  main > .head {
+
+  main>.head {
     padding-left: 1.8125rem;
     padding-right: 1.8125rem;
   }
-  main > .head .head-title .title .black-title,
-main > .head .head-title .title .gradient-title {
+
+  main>.head .head-title .title .black-title,
+  main>.head .head-title .title .gradient-title {
     font-size: 3.125rem;
     line-height: 125%;
   }
-  main > .head .btns > div {
+
+  main>.head .btns>div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
-  main > .head .btns .cv-form {
+
+  main>.head .btns .cv-form {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
     justify-content: flex-start;
     margin: 1.6rem 0 6rem;
   }
-  main > .head .btns .cv-form .cv {
+
+  main>.head .btns .cv-form .cv {
     width: 53%;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
     justify-content: flex-start;
   }
-  main > .head .my-img .myimg {
+
+  main>.head .my-img .myimg {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
     width: 100%;
   }
-  main > .head .my-img .myimg img {
+
+  main>.head .my-img .myimg img {
     width: 38%;
   }
+
   main .services {
     padding-left: 0.75rem;
   }
-  main .services > .title .black-title {
+
+  main .services>.title .black-title {
     line-height: 110%;
   }
+
   main .services .values {
     padding-left: 0.75rem;
   }
+
   main .services .values .img {
     margin-bottom: 2rem;
   }
+
   main .services .values .img img {
     width: 70px;
   }
+
   main .services .values h2 {
     font-size: 1.1325rem;
   }
+
   main .projects-head {
     margin-left: 1.5rem;
   }
+
   main .projects-head .btns .buttons {
     position: relative;
     left: -12px;
   }
+
   main .projects {
     max-width: 654px;
   }
+
   main .projects .projects-links {
     margin-bottom: 2rem;
     margin-left: 1rem;
   }
+
   main .projects .projects-links .pro-panel {
     width: 391px;
   }
+
   main .projects .projects-links .pro-panel .details .gradient-title {
     font-size: 0.875rem;
   }
+
   main .projects .projects-links .pro-panel .details .black-title {
     font-size: 1.3125rem;
   }
+
   main .projects .projects-links .pro-panel .details .to-pro {
     width: 60%;
   }
+
   main .projects .projects-links .pro-panel .details .to-pro p {
     font-size: 1rem;
   }
+
   main .projects .indicators .img img {
     width: 50%;
   }
+
   main .testimonials {
     max-width: 654px;
     margin-left: 0;
     margin-right: 0;
   }
-  main .testimonials > .title {
+
+  main .testimonials>.title {
     margin-left: 0.75rem;
   }
+
   main .testimonials .feedbacks blockquote {
     width: 100%;
     font-size: 1.475rem;
     margin-left: 0.75rem;
     margin-right: 0.75rem;
   }
+
   main .testimonials .feedbacks .img {
     width: 97.1%;
     margin-left: auto;
     margin-right: auto;
   }
+
   main .testimonials .feedbacks .img img {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
   }
+
   main .testimonials .feedbacks .name-indicators {
     margin-left: 0.75rem;
     margin-right: 0.75rem;
     padding-right: 0.75rem;
   }
+
   main .testimonials .feedbacks .name-indicators .name h5 {
     font-size: 1.25rem;
   }
+
   main .testimonials .feedbacks .name-indicators .name p {
     font-size: 1rem;
   }
+
   main .testimonials .feedbacks .name-indicators .indicators {
     width: 86px;
   }
-  main .education > .row:first-child {
+
+  main .education>.row:first-child {
     padding-left: 1.625rem;
   }
+
   main .education .certificates {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
+
   main .education .certificates .edu {
+    -ms-grid-columns: 14% 51.8% 30% 4.2%;
     grid-template-columns: 14% 51.8% 30% 4.2%;
+    -ms-grid-rows: (auto)[3];
     grid-template-rows: repeat(3, auto);
-    grid-template-areas: "icon-left title . icon-right" "icon-left desc-p duration ." ". ul ul .";
+    grid-template-areas: "icon-left title . icon-right""icon-left desc-p duration ."". ul ul .";
     width: 90%;
   }
+
   main .education .certificates .edu .duration {
     margin-top: 0;
   }
+
   main .about-me {
+    -ms-grid-rows: 0.25fr 1fr;
     grid-template-rows: 0.25fr 1fr;
   }
-  main .about-me > .head .desc {
+
+  main .about-me>.head .desc {
     max-width: none;
   }
+
   main .about-me .collection-img {
+    -ms-grid-columns: 95%;
     grid-template-columns: 95%;
     --gap: 5vh;
   }
+
   main .about-me .collection-img .mid-img {
+    -ms-grid-columns: calc(50% - var(--gap) / 2) var(--gap) calc(50% - var(--gap) / 2);
     grid-template-columns: calc(50% - var(--gap) / 2) calc(50% - var(--gap) / 2);
     -moz-column-gap: var(--gap);
-         column-gap: var(--gap);
+    -webkit-column-gap: var(--gap);
+    column-gap: var(--gap);
   }
 }
+
 @media ((min-width: 640px)) {
   header .mobile-nav .anchors {
     padding-left: 4rem;
     padding-right: 30px;
   }
-  main .head .btns > div {
+
+  main .head .btns>div {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
     justify-content: flex-start;
   }
+
   main .head .btns .cv-form {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
     justify-content: flex-start;
     padding-left: 1rem;
   }
+
   main .head .btns .cv-form .cv {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
+
   main .projects-head {
     padding-left: 2.75rem;
   }
+
   main .projects {
     max-width: none;
   }
+
   main .projects .projects-links {
     margin-bottom: 2rem;
   }
+
   main .testimonials .feedbacks .img {
     width: 85.1%;
   }
+
   main .education .certificates .edu {
     width: 93.5%;
   }
 }
+
 @media ((min-width: 658px)) {
   header .navigation .row .logo {
     padding-left: 0;
   }
+
   header .mobile-nav .anchors {
     padding-left: 4rem;
     padding-right: 30px;
   }
+
   main {
     margin-top: 4rem;
   }
+
   main .projects {
     max-width: none;
   }
+
   main .projects .projects-links {
     margin-bottom: 3rem;
   }
+
   main .education .certificates .edu {
+    -ms-grid-columns: 12% 53.8% 30% 4.2%;
     grid-template-columns: 12% 53.8% 30% 4.2%;
   }
-  main .about-me > .title .gradient-title {
+
+  main .about-me>.title .gradient-title {
     margin-bottom: 0;
   }
-  main .about-me > .title .black-title {
+
+  main .about-me>.title .black-title {
     margin-bottom: 1rem;
   }
 }
+
 @media ((min-width: 667px)) {
   header .mobile-nav .anchors {
     padding-left: 2.6rem;
   }
+
   main .testimonials {
     max-width: none;
   }
 }
+
 @media ((min-width: 720px)) {
   header .mobile-nav .anchors {
     padding-left: 3rem;
   }
 }
+
 @media ((min-width: 731px)) {
   header .mobile-nav .anchors {
     padding-left: 6.3rem;
   }
 }
+
 @media ((min-width: 740px)) {
   header .mobile-nav .anchors {
     padding-left: 7rem;
   }
+
   main .projects .projects-links .pro-panel .details::before {
     left: -10px;
   }
 }
+
 @media ((min-width: 745px)) {
   header .mobile-nav .anchors {
     padding-left: 7rem;
   }
+
   main .projects .projects-links .pro-panel .details::before {
     left: -12px;
   }
 }
+
 @media ((min-width: 812px)) {
   header .navigation {
     max-width: 699px;
   }
+
   header .mobile-nav .anchors {
     padding-left: 3.6rem;
   }
+
   main .head .my-img {
     margin-top: 3rem;
   }
+
   main .services .values {
     padding-left: 5rem;
   }
+
   main .projects .projects-links .pro-panel {
     width: 405px;
   }
+
   footer .contact .title {
     height: 50%;
   }
 }
+
 @media ((min-width: 823px)) {
-  main .education .certificates .edu::before, main .education .certificates .edu::after {
+
+  main .education .certificates .edu::before,
+  main .education .certificates .edu::after {
     height: 1px;
   }
 }
+
 @media ((min-width: 844px)) {
   header .mobile-nav .anchors {
     padding-left: 4.6rem;
   }
 }
+
 @media ((min-width: 914px)) {
   header .mobile-nav .anchors {
     padding-left: 7rem;
   }
+
   main .services .values {
     padding-left: 4rem;
   }
-}/*# sourceMappingURL=responsive-mobile.css.map */
+}
